@@ -32,20 +32,14 @@
           <%= image_tag "icons/heart.png" %>
         <% end %>
       </li>
-      <li>
 
-        <%= link_to "#" do %>
-        <%= image_tag "icons/heart.png" %>
-      <% end %>
-    </li>
     <li>
-      <%= link_to "#" do %>
+      <%= link_to new_topic_path do %>
       <%= image_tag "icons/camera.png" %>
     <% end %>
   </li>
 <% else %>
 
-  >
   <li>
     <%= link_to new_user_path do %>
     <%= image_tag "icons/register.png" %>
@@ -54,7 +48,8 @@
     <%= link_to login_path do %>
     <%= image_tag "icons/login.png" %>
   <% end %>
-</li <% end %>
+</li>
+  <% end %>
 </ul>
 </div>
 </nav>
