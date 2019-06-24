@@ -21,7 +21,7 @@ class SessionsController < ApplicationController
 
   private
   def user_params
-    params.require(:user).permit(:email)
+    params.require(:user).permit(:email, :password)
   end
   def log_in(user)
     session[:user_id] = user.id
