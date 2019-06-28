@@ -92,8 +92,7 @@ img {
 .btn-black {
   color: #565656;
   border: 1px solid #565656;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding: 15px 50px;
   font-size: 20px;
   background-color: rgba(0, 0, 0, 0.0);
 
@@ -129,7 +128,7 @@ img {
     img {
       margin-top: 10px;
       margin-bottom: 20px;
-      width: 100;
+      width: 100%;
     }
 
     .topic-index-icon {
@@ -138,4 +137,8 @@ img {
       margin-left: 20px;
     }
   }
+}
+
+.topic-new-wrapper {
+  padding-top: 120px;
 }
